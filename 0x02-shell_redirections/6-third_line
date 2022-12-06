@@ -1,2 +1,2 @@
 #!/bin/bash
-head --Lines=3 iacta | tail--Lines=1
+head -n 3 iacta | tail -n 1
