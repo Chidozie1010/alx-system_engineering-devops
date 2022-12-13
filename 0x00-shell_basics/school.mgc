@@ -1,3 +1,2 @@
-0 string SCHOOL school data file
-file -m school.mgc school_data.txt
-l
+echo 0 string SCHOOL school data>school.mgc
+!:mime text school >> school.mgc
