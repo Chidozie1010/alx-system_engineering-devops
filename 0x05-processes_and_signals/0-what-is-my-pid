@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#Write a bash script that displays it's owm PID
+# Displays its own PID.
+
 echo $$
