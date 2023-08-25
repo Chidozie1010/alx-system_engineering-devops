@@ -1,0 +1,3 @@
+s script gracefully restarts gunicorn app
+PID=$(pgrep gunicorn | head -n 1)
+kill -HUP "$PID"
